@@ -1,4 +1,5 @@
-default_themes=(
+themes=(
+	casper
 	attila
 	london
 	massively
@@ -10,16 +11,7 @@ default_themes=(
 	liebling
 )
 
-custom_themes=(
-	casper
-)
-
-for theme in "${default_themes[@]}"
+for theme in "${themes[@]}"
 do
 	cp -Rf "node_modules/$theme" content/themes
-done
-
-for theme in "${custom_themes[@]}"
-do
-	cp -Rf "../blog-theme" content/themes/casper
 done
