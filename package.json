@@ -12,7 +12,7 @@
   "dependencies": {
     "attila": "github:zutrinken/attila#1.13.0",
     "bleak": "github:zutrinken/bleak#1.4.0",
-    "casper": "github:forkequity/ma-blog-theme",
+    "casper": "github:forkequity/ma-blog-theme.git#65e25753caea510cc1ba84345896439933354c7c",
     "ghost": "^3.2.0",
     "ghost-storage-adapter-s3": "^2.8.0",
     "ghost-storage-cloudinary": "^2.0.2",
